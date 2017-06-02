@@ -8,5 +8,5 @@ spec:
       image: gcr.io/go-sample-144321/go-trivial-sample
       imagePullPolicy: Always
       ports:
-        - containerPort: 8080
+        - containerPort: 80
           hostPort: 80
