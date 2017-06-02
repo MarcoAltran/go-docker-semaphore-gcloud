@@ -1,4 +1,4 @@
 FROM golang:1.7.1
 COPY bin/sample /go/bin
-EXPOSE 8080
+EXPOSE 80
 CMD ["/go/bin/sample"]
