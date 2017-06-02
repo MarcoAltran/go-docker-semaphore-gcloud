@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: my-sample-app-on-gcloud
-      image: gcr.io/go-sample-144321/go-trivial-sample
+      image: gcr.io/telep-corporation/go-trivial-sample
       imagePullPolicy: Always
       ports:
         - containerPort: 80
